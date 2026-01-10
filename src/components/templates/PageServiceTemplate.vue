@@ -2,14 +2,16 @@
 defineSlots<{
   actions?: () => any
 }>()
+
 defineProps<{
   title: string
-  subtitle: string
+  subtitle?: string
   description: string
-  bullets: string[]
+  bullets?: string[]
   image?: string
 }>()
 </script>
+
 <template>
   <section class="w-full bg-white py-20">
     <div
@@ -18,11 +20,14 @@ defineProps<{
     >
 
       <div>
-        <h1 class="text-[34px] font-extrabold text-[#2a2a2a] mb-6">
+        <h1 class="text-[34px] font-extrabold text-[#2a2a2a] mb-4">
           {{ title }}
         </h1>
 
-        <h2 class="text-[20px] font-bold text-[#6b4a1f] mb-4">
+        <h2
+          v-if="subtitle"
+          class="text-[20px] font-bold text-[#6b4a1f] mb-4"
+        >
           {{ subtitle }}
         </h2>
 
@@ -30,7 +35,7 @@ defineProps<{
           {{ description }}
         </p>
 
-        <ul class="space-y-3 mb-8">
+        <ul v-if="bullets?.length" class="space-y-3 mb-8">
           <li
             v-for="item in bullets"
             :key="item"
@@ -46,7 +51,7 @@ defineProps<{
         </div>
       </div>
 
-      <div class="relative">
+      <div v-if="image" class="relative">
         <img
           :src="image"
           alt=""
