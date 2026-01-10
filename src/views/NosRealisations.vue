@@ -8,7 +8,7 @@ import img4 from '@/assets/images/test3.png'
 import img5 from '@/assets/images/test4.png'
 import img6 from '@/assets/images/test5.png'
 
-const images = [img1, img2, img3, img4, img5]
+const images = [img1, img2, img3, img4, img5, img6]
 
 const activeImage = ref<string | null>(null)
 </script>

@@ -1,13 +1,15 @@
 <script setup lang="ts">
+defineSlots<{
+  actions?: () => any
+}>()
 defineProps<{
   title: string
   subtitle: string
   description: string
   bullets: string[]
-  image: string
+  image?: string
 }>()
 </script>
-
 <template>
   <section class="w-full bg-white py-20">
     <div
