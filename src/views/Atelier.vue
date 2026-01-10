@@ -22,9 +22,7 @@ import imageAtelier from '@/assets/alcove.jpg'
     ]"
     :image="imageAtelier"
   >
-    <template #actions>
       <UIButtonDevis />
       <UIButtonPhone />
-    </template>
   </PageServiceTemplate>
 </template>

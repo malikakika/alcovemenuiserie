@@ -21,9 +21,7 @@ import imageCuisine from '@/assets/images/test5.png'
     ]"
     :image="imageCuisine"
   >
-    <template #actions>
       <UIButtonDevis />
       <UIButtonPhone />
-    </template>
   </PageServiceTemplate>
 </template>

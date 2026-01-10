@@ -1,8 +1,4 @@
 <script setup lang="ts">
-defineSlots<{
-  actions?: () => any
-}>()
-
 defineProps<{
   title: string
   subtitle?: string
@@ -18,6 +14,7 @@ defineProps<{
       class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12
              grid grid-cols-1 lg:grid-cols-2 gap-14 items-center"
     >
+
 
       <div>
         <h1 class="text-[34px] font-extrabold text-[#2a2a2a] mb-4">
@@ -46,10 +43,12 @@ defineProps<{
           </li>
         </ul>
 
+
         <div class="flex gap-4 flex-wrap">
-          <slot name="actions" />
+          <slot />
         </div>
       </div>
+
 
       <div v-if="image" class="relative">
         <img

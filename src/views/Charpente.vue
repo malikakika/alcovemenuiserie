@@ -19,9 +19,7 @@ import imageCharpente from '@/assets/images/test2.png'
     ]"
     :image="imageCharpente"
   >
-    <template #actions>
       <UIButtonDevis />
       <UIButtonPhone />
-    </template>
   </PageServiceTemplate>
 </template>

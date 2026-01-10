@@ -21,9 +21,7 @@ import imageEscalier from '@/assets/images/test4.png'
     ]"
     :image="imageEscalier"
   >
-    <template #actions>
       <UIButtonDevis />
       <UIButtonPhone />
-    </template>
   </PageServiceTemplate>
 </template>

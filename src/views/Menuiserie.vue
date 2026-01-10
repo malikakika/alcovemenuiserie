@@ -19,9 +19,9 @@ import imageMenuiserie from '@/assets/images/test.png'
     ]"
     :image="imageMenuiserie"
   >
-    <template #actions>
+
       <UIButtonDevis />
       <UIButtonPhone />
-    </template>
+
   </PageServiceTemplate>
 </template>

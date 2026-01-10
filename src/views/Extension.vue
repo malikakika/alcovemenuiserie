@@ -17,9 +17,7 @@ import imageExtension from '@/assets/images/test3.png'
     ]"
     :image="imageExtension"
   >
-    <template #actions>
       <UIButtonDevis />
       <UIButtonPhone />
-    </template>
   </PageServiceTemplate>
 </template>
