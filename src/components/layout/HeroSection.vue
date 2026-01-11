@@ -60,7 +60,7 @@ import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
   z-index: 1;
   max-width: 680px;
   padding: 120px 24px;
-  margin-left: clamp(16px, 6vw, 20px);
+  margin-left: 20px;
   margin-right: auto;
 
   text-align: left;
@@ -110,6 +110,8 @@ import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
 
   .hero-content {
     padding: 100px 20px;
+      margin-left: 120px;
+
   }
 }
 
@@ -123,6 +125,8 @@ import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
   .hero-content {
     padding: 80px 16px;
     max-width: 100%;
+    margin-left: 80px;
+
   }
 }
 </style>
