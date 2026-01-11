@@ -24,7 +24,7 @@ const sendMail = () => {
   )
 
   window.location.href =
-    `mailto:contact@alcove-menuiserie.fr?subject=${subject}&body=${body}`
+    `mailto:mchoubri@gmail.com?subject=${subject}&body=${body}`
 }
 </script>
 
