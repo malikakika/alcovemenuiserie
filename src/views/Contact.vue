@@ -26,8 +26,18 @@ const sendMail = () => {
   const mailto =
     `mailto:mchoubri@gmail.com?subject=${subject}&body=${body}`
 
+  const gmail =
+    `https://mail.google.com/mail/?view=cm&fs=1&to=mchoubri@gmail.com&su=${subject}&body=${body}`
+
+  // Tentative client mail
   window.open(mailto, '_self')
+
+  // Si rien ne s’ouvre → Gmail Web
+  setTimeout(() => {
+    window.open(gmail, '_blank')
+  }, 500)
 }
+
 
 </script>
 
@@ -76,15 +86,13 @@ const sendMail = () => {
           </div>
 
           <button
-  type="button"
-  @click="sendMail"
-  class="border border-[#6b4a1f] text-[#6b4a1f]
-         px-8 py-3 rounded-md font-semibold
-         hover:bg-[#6b4a1f] hover:text-white transition"
->
-  Envoyer
-</button>
-
+            type="submit"
+            class="border border-[#6b4a1f] text-[#6b4a1f]
+                   px-8 py-3 rounded-md font-semibold
+                   hover:bg-[#6b4a1f] hover:text-white transition"
+          >
+            Envoyer
+          </button>
         </form>
 
         <aside class="space-y-8">
