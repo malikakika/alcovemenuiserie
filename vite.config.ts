@@ -4,9 +4,19 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
+  },
+
+  optimizeDeps: {
+    include: ['vue', 'vue-router'],
+  },
+
+  build: {
+    cssCodeSplit: true,
+    chunkSizeWarningLimit: 600,
   },
 })
