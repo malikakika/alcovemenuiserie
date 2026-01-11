@@ -23,9 +23,12 @@ const sendMail = () => {
     `Message :\n${message.value}`
   )
 
-  window.location.href =
+  const mailtoLink =
     `mailto:mchoubri@gmail.com?subject=${subject}&body=${body}`
+
+  window.open(mailtoLink, '_self')
 }
+
 </script>
 
 <template>
