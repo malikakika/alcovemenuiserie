@@ -23,10 +23,10 @@ const sendMail = () => {
     `Message :\n${message.value}`
   )
 
-  const mailtoLink =
+  const mailto =
     `mailto:mchoubri@gmail.com?subject=${subject}&body=${body}`
 
-  window.open(mailtoLink, '_self')
+  window.open(mailto, '_self')
 }
 
 </script>
@@ -76,13 +76,15 @@ const sendMail = () => {
           </div>
 
           <button
-            type="submit"
-            class="border border-[#6b4a1f] text-[#6b4a1f]
-                   px-8 py-3 rounded-md font-semibold
-                   hover:bg-[#6b4a1f] hover:text-white transition"
-          >
-            Envoyer
-          </button>
+  type="button"
+  @click="sendMail"
+  class="border border-[#6b4a1f] text-[#6b4a1f]
+         px-8 py-3 rounded-md font-semibold
+         hover:bg-[#6b4a1f] hover:text-white transition"
+>
+  Envoyer
+</button>
+
         </form>
 
         <aside class="space-y-8">
