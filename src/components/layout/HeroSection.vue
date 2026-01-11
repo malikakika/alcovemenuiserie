@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import heroImg from '@/assets/bandeauhero.png'
+import heroImg from '@/assets/bandeauhero.webp'
 
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'

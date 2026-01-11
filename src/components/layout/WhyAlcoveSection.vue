@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import imageWhy from '@/assets/alcove.jpg' 
-import imageOverview from '@/assets/alcove.jpg' 
+import imageWhy from '@/assets/alcove.webp' 
+import imageOverview from '@/assets/alcove.webp' 
 </script>
 
 <template>

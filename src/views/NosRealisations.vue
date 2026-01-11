@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-import img1 from '@/assets/images/test.png'
-import img2 from '@/assets/images/test1.png'
-import img3 from '@/assets/images/test2.png'
-import img4 from '@/assets/images/test3.png'
-import img5 from '@/assets/images/test4.png'
-import img6 from '@/assets/images/test5.png'
+import img1 from '@/assets/images/test.webp'
+import img2 from '@/assets/images/test1.webp'
+import img3 from '@/assets/images/test2.webp'
+import img4 from '@/assets/images/test3.webp'
+import img5 from '@/assets/images/test4.webp'
+import img6 from '@/assets/images/test5.webp'
 
 const images = [img1, img2, img3, img4, img5, img6]
 

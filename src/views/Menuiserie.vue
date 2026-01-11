@@ -3,7 +3,7 @@ import PageServiceTemplate from '@/components/templates/PageServiceTemplate.vue'
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
 
-import imageMenuiserie from '@/assets/images/test.png'
+import imageMenuiserie from '@/assets/images/test.webp'
 </script>
 
 <template>

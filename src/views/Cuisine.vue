@@ -5,7 +5,7 @@ import PageServiceTemplate from '@/components/templates/PageServiceTemplate.vue'
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
 
-import imageCuisine from '@/assets/images/test5.png'
+import imageCuisine from '@/assets/images/test5.webp'
 </script>
 
 <template>

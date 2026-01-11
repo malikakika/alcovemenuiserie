@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import logoAlcove from '@/assets/alcove.jpg'
+import logoAlcove from '@/assets/alcove.webp'
 
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'

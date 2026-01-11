@@ -2,7 +2,7 @@
 import PageServiceTemplate from '@/components/templates/PageServiceTemplate.vue'
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
-import imageCharpente from '@/assets/images/test2.png'
+import imageCharpente from '@/assets/images/test2.webp'
 
 </script>
 

@@ -5,7 +5,7 @@ import PageServiceTemplate from '@/components/templates/PageServiceTemplate.vue'
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
 
-import imageAtelier from '@/assets/alcove.jpg'
+import imageAtelier from '@/assets/alcove.webp'
 </script>
 
 <template>

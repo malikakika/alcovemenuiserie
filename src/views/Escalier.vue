@@ -5,7 +5,7 @@ import PageServiceTemplate from '@/components/templates/PageServiceTemplate.vue'
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
 
-import imageEscalier from '@/assets/images/test4.png'
+import imageEscalier from '@/assets/images/test4.webp'
 </script>
 
 <template>

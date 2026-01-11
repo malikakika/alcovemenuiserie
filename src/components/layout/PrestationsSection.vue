@@ -3,11 +3,11 @@ import UIPrestationCard from '@/components/ui/UIPrestationCard.vue'
 import UIButtonDevis from '@/components/ui/UIButtonDevis.vue'
 import UIButtonPhone from '@/components/ui/UIButtonPhone.vue'
 
-import img1 from '@/assets/images/test.png'
-import img2 from '@/assets/images/test1.png'
-import img3 from '@/assets/images/test2.png'
-import img4 from '@/assets/images/test3.png'
-import img5 from '@/assets/images/test4.png'
+import img1 from '@/assets/images/test.webp'
+import img2 from '@/assets/images/test1.webp'
+import img3 from '@/assets/images/test2.webp'
+import img4 from '@/assets/images/test3.webp'
+import img5 from '@/assets/images/test4.webp'
 
 const prestations = [
   { title: 'Menuiserie', image: img1, link: '/menuiserie' },

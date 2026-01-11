@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import logo from '@/assets/alcove.jpg'
+import logo from '@/assets/alcove.webp'
 </script>
 
 <template>

@@ -84,7 +84,7 @@ const sendMail = () => {
 
         <aside class="space-y-8">
           <img
-            src="@/assets/alcove.jpg"
+            src="@/assets/alcove.webp"
             alt="Alcove"
             class="h-[70px]"
           />
